@@ -1,0 +1,57 @@
+.alert.alert-help {
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    color: #8a6d3b;
+}
+
+.table.detail-view th.kv-form-attribute-label {
+    width: 25%;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.table.detail-view th.kv-align-center {
+    text-align: center;
+}
+
+.table.detail-view th.kv-align-top {
+    vertical-align: top;
+}
+
+.table.detail-view td {
+    vertical-align: middle;
+}
+
+.table.detail-view-custom .kv-form-attribute .help-block {
+    margin-bottom: -15px;
+}
+
+.user-header {
+    height: 75px !important;
+}
+
+.user-panel>.info {
+    position: relative;
+}
+
+.main-header .logo img {
+    margin-bottom: 10px;
+    height: 50px;
+    width: auto;
+}
+
+.auth-login .panel {
+    border-bottom: none;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.auth-login h1 {
+    color: #fff;
+}
+
+.auth-login .panel-heading.logo-heading {
+    text-align: center;
+    background-color: #00a65a;
+}
+

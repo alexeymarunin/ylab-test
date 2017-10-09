@@ -1,0 +1,46 @@
+{
+  "name": "ylab/yii2-test",
+  "description": "YLab, Test app",
+  "version": "1.0",
+  "type": "project",
+  "license": "proprietary",
+  "homepage": "http://yiilab.com/",
+  "keywords": [ "yii2", "YLab", "web application" ],
+
+  "authors": [
+    {
+      "name": "Alexey Marunin",
+      "email": "a.v.marunin@gmail.com",
+      "role": "Developer"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.6.0",
+    "yiisoft/yii2": "2.0.11.2",
+    "vlucas/phpdotenv": "2.4.0",
+    "rmrevin/yii2-fontawesome": "^2.17",
+    "dmstr/yii2-adminlte-asset": "2.4.2",
+    "kartik-v/yii2-detail-view": "^1.7",
+    "kartik-v/yii2-widget-select2": "^2.0",
+    "kartik-v/yii2-widget-datepicker": "^1.4",
+    "kartik-v/yii2-builder": "^1.6",
+    "yiisoft/yii2-httpclient": "*"
+  },
+
+  "minimum-stability": "stable",
+  "config": {
+    "process-timeout": 1800
+  },
+
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  },
+
+  "require-dev": {
+    "yiisoft/yii2-debug": "^2.0"
+  }
+}
